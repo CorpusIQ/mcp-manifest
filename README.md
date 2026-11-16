@@ -41,6 +41,10 @@ The first connection opens a sign-in. Authorization is discovered from
 `https://mcp2.corpusiq.io/.well-known/oauth-protected-resource`, and client registration is automatic,
 so no client ID or secret is needed.
 
+The `.mcp.json` at the root of this repository carries the same configuration, so a client that reads
+repository-scoped MCP configuration (Claude Code, and directories that crawl a repository to build an
+install command) can detect the server without a manual entry.
+
 Tools are read-only. CorpusIQ retrieves from the systems the user has connected and returns answers
 with source citations. Customer data is not stored.
 
