@@ -59,3 +59,13 @@ curl "https://registry.modelcontextprotocol.io/v0.1/servers?search=corpusiq"
 
 The `isLatest` version should match `version` in `server.json`, and its `repository.url` should point
 back at this repository.
+
+## Privacy and support
+
+- Privacy Policy: https://www.corpusiq.io/privacy
+- Support: https://www.corpusiq.io/support (email: info@corpusiq.io)
+- Security and data handling: https://www.corpusiq.io/security
+
+CorpusIQ retrieves data from the systems a user has authorised. External retrieval is read-only and
+does not write back to vendor systems. Direct MCP access does not retain raw customer files or full
+connector response payloads.
